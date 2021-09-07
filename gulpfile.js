@@ -65,9 +65,14 @@ function copyCcsTemplate() {
     .pipe(gulp.dest(`${assetsDirectory}/svg/`))
 
   gulp.src([
-    './src/main/public/img/**/*'
+    './src/main/assets/img/**/*'
   ])
     .pipe(gulp.dest(`${assetsDirectory}/images`))
+
+  gulp.src([
+    './src/main/assets/scss/**/*'
+  ])
+    .pipe(gulp.dest(`${assetsDirectory}/styles`))
 }
 
 gulp.task('default',
