@@ -1,0 +1,6 @@
+nodejs:
+  applicationPort: 3000
+  aadIdentityName: rpe
+  ingressHost: {{ cookies-consent.app_full_name }}.{{ '{{' }} .Values.global.environment {{ '}}' }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/hmcts/cookies-consent:latest'
+  environment:
