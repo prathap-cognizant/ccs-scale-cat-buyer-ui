@@ -1,0 +1,9 @@
+{
+ "heading" : "Buy online using our contract award service",
+ "signposting" :{
+     "heading" : "If this is the first time you have used this service you will need to register. When you have signed in you can:",
+     "list" : ["start a new procurement project", "create and award contracts for products and services you need", 
+        "add colleagues to help you review and evaluate suppliers", "manage your current procurement projects"]
+ },
+ "html" : "<p class='govuk-body'>This service is only available for the following agreements:</p><ul class='govuk-list govuk-list--bullet'><li>Digital outcomes and Specialists 5</li><li>Management Consultancy Framework 3</li><li>G-Cloud 12</li></ul><p class='govuk-body'>We have other agreements available but you can't use this service to buy from them. You can search these agreements.</p>" 
+}
